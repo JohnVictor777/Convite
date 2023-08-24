@@ -209,24 +209,24 @@ body {
     }
 
     #sim {
-        width: 40vw;
-        height: 70px;
-        font-size: 22px;
+        width: 30vw;
+        height: 60px;
+        font-size: 18px;
         font-weight: 700;
 
     }
 
     #nao {
-        width: 40vw;
-        height: 70px;
-        font-size: 22px;
+        width: 30vw;
+        height: 60px;
+        font-size: 18px;
         font-weight: 700;
 
     }
 
     .sair {
-        padding-top: 33vw;
-        padding-right: 45vw;
+        padding-top: 25vw;
+        padding-right: 34vw;
     }
 
 
@@ -254,21 +254,21 @@ body {
     }
 
     .dia {
-        padding-top: 33vw;
-        padding-right: 30vw;
+        padding-top: 25vw;
+        padding-right: 20vw;
     }
 
     .dia1 {
-        width: 40vw;
-        height: 70px;
-        font-size: 22px;
+        width: 35vw;
+        height: 65px;
+        font-size: 20px;
         font-weight: 700;
     }
 
     .dia2 {
-        width: 40vw;
-        height: 70px;
-        font-size: 22px;
+        width: 35vw;
+        height: 65px;
+        font-size: 20px;
         font-weight: 700;
     }
 
