@@ -9,6 +9,8 @@ body {
     background-color: #000;
 }
 
+
+
 /* QUER SAIR COMIGO? */
 .painel {
     margin: auto;
@@ -20,8 +22,6 @@ body {
     padding-top: 50px;
     color: red;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-
 }
 
 .painel h2 {
@@ -31,7 +31,6 @@ body {
 #sim {
     width: 100px;
     height: 50px;
-
     background-color: red;
     border: 2px solid #fff;
     border-radius: 10px;
@@ -39,7 +38,6 @@ body {
     cursor: pointer;
     transition: tramsform .65s ease;
     font-size: 20px;
-
 }
 
 #sim:hover {
@@ -51,7 +49,6 @@ body {
     position: absolute;
     width: 100px;
     height: 50px;
-
     background-color: red;
     border: 2px solid #fff;
     border-radius: 10px;
@@ -60,14 +57,11 @@ body {
     transition: tramsform .65s ease;
     margin-left: 20px;
     font-size: 20px;
-
 }
 
 .sair {
     padding-top: 40px;
     padding-right: 100px;
-
-
 }
 
 /* QUER SAIR COMIGO? */
@@ -82,7 +76,6 @@ body {
     padding-top: 50px;
     color: red;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 }
 
 .dia {
@@ -92,14 +85,12 @@ body {
     justify-content: center;
     height: 70px;
     padding-right: 35px;
-
 }
 
 
 .dia1 {
     width: 100px;
     height: 50px;
-
     background-color: red;
     border: 2px solid #fff;
     border-radius: 10px;
@@ -108,14 +99,12 @@ body {
     cursor: pointer;
     transition: tramsform .65s ease;
     font-size: 20px;
-
 }
 
 .dia2 {
     position: absolute;
     width: 100px;
     height: 50px;
-
     background-color: red;
     border: 2px solid #fff;
     border-radius: 10px;
@@ -124,9 +113,12 @@ body {
     cursor: pointer;
     transition: tramsform .65s ease;
     font-size: 20px;
-
-
 }
+
+.dia2-button {
+    height: 47px;
+}
+
 
 .dia1:hover {
     opacity: 1.1;
@@ -137,50 +129,6 @@ body {
     opacity: 1.1;
     background-color: #730606e7;
 }
-
-
-
-/* CONFIRMAÇAO */
-
-.painel-confirmacao {
-    margin: auto;
-    background-color: #fff;
-    width: 500px;
-    height: 500px;
-    border-radius: 20px;
-    text-align: center;
-    padding-top: 50px;
-    color: red;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
-
-.img-sapo {
-    margin: auto;
-    background-color: #fff;
-    width: 287px;
-    height: 276px;
-}
-
-
-.confirme {
-    padding-top: 30px;
-
-}
-
-.confirme1 {
-    width: 12vw;
-    height: 60px;
-    background-color: red;
-    border: 2px solid #fff;
-    border-radius: 10px;
-    color: #fff;
-    cursor: pointer;
-    font-size: 18px;
-}
-
-
-
 
 
 
@@ -259,15 +207,15 @@ body {
     }
 
     .dia1 {
-        width: 35vw;
-        height: 65px;
+        width: 30vw;
+        height: 60px;
         font-size: 20px;
         font-weight: 700;
     }
 
     .dia2 {
-        width: 35vw;
-        height: 65px;
+        width: 30vw;
+        height: 60px;
         font-size: 20px;
         font-weight: 700;
     }
@@ -278,34 +226,7 @@ body {
 
     }
 
-
-
-
-    .painel-confirmacao {
-        margin: auto;
-        width: auto;
-        height: 23vw;
-        border-radius: 20px;
-        text-align: center;
-        padding-top: 50vw;
-
-        color: red;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-
-    .confirme {
-        padding-top: 20vw;
-    }
-
-    .confirme1 {
-        width: 50vw;
-        height: 80px;
-        font-size: 23px;
-        font-weight: 700;
-    }
-
-    .img-sapo {
-        width: 297px;
-        height: 285px;
+    .dia2-button {
+        height: 60px;
     }
 }
