@@ -2,7 +2,6 @@
     border: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
@@ -12,6 +11,7 @@ body {
 
 
 /* QUER SAIR COMIGO? */
+
 .painel {
     margin: auto;
     background-color: #fff;
@@ -64,6 +64,8 @@ body {
     padding-right: 100px;
 }
 
+
+
 /* QUER SAIR COMIGO? */
 
 .painel-dia {
@@ -115,11 +117,6 @@ body {
     font-size: 20px;
 }
 
-.dia2-button {
-    height: 47px;
-}
-
-
 .dia1:hover {
     opacity: 1.1;
     background-color: #730606e7;
@@ -129,6 +126,46 @@ body {
     opacity: 1.1;
     background-color: #730606e7;
 }
+
+
+
+/* CONFIRMAÇAO */
+
+.painel-confirmacao {
+    margin: auto;
+    background-color: #fff;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 50px;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img-sapo {
+    margin: auto;
+    background-color: #fff;
+    width: 287px;
+    height: 276px;
+}
+
+
+.confirme {
+    padding-top: 30px;
+}
+
+.confirme1 {
+    width: 12vw;
+    height: 60px;
+    background-color: red;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+
 
 
 
@@ -147,7 +184,6 @@ body {
         padding-top: 16vw;
         color: red;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
     }
 
     .painel h1 {
@@ -161,7 +197,6 @@ body {
         height: 60px;
         font-size: 18px;
         font-weight: 700;
-
     }
 
     #nao {
@@ -169,7 +204,6 @@ body {
         height: 60px;
         font-size: 18px;
         font-weight: 700;
-
     }
 
     .sair {
@@ -223,10 +257,32 @@ body {
     .esponja-dia {
         width: 297px;
         height: 285px;
-
     }
 
-    .dia2-button {
-        height: 60px;
+    .painel-confirmacao {
+        margin: auto;
+        width: auto;
+        height: 23vw;
+        border-radius: 20px;
+        text-align: center;
+        padding-top: 50vw;
+        color: red;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .confirme {
+        padding-top: 20vw;
+    }
+
+    .confirme1 {
+        width: 50vw;
+        height: 80px;
+        font-size: 23px;
+        font-weight: 700;
+    }
+
+    .img-sapo {
+        width: 297px;
+        height: 285px;
     }
 }
